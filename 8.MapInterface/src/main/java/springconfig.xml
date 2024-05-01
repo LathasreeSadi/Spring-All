@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="institute" class=" com.spring.eight.AmeerpetTechnologies"> 
+		<property name="StudentCourses">
+			<map>
+				<entry key="JavaFullStack" value="Frontend-Backend"/>
+				<entry key="PythonFullStack" value="Programming Language"/>
+				<entry key="DotnetFullStack" value="Frontend-Backend"/>
+				</map>
+			</property>
+	</bean>
+</beans>

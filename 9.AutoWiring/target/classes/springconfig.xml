@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	 http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- <bean id="second" class="com.spring.nine.Second">-->
+		 <!--<bean id="s" class="com.spring.nine.Second">-->
+			 <bean id="second" class="com.spring.nine.Second">
+	<!--<bean id="sec" class="com.spring.nine.Second">--> 
+		<property name="id"  value="101"></property>
+		<property name="name" value="Latha"></property>
+		
+	</bean>
+	<!--<bean id="fir" class="com.spring.nine.First" autowire="byName">-->
+			<!--<bean id="fir" class="com.spring.nine.First" autowire="byType">-->
+				<bean id="fir" class="com.spring.nine.First" autowire="constructor">
+					<!--<property name="second" ref="sec"></property>-->
+					
+			</bean>
+</beans>
